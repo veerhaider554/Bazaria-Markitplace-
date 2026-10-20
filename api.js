@@ -3,7 +3,7 @@
    Centralized Backend Communication
 
    File:
-   frontend/js/utils/api.js
+   frontend./api.js
 
    Architecture:
 
@@ -28,7 +28,7 @@
 const BAZARIA_API_CONFIG = Object.freeze({
 
     baseUrl:
-        "http://localhost:5000/api",
+        "https://joy-frail-cow.abasthan.app/api",
 
     timeout:
         8000,
@@ -40,6 +40,7 @@ const BAZARIA_API_CONFIG = Object.freeze({
         50
 
 });
+
 
 
 /* =========================================================
